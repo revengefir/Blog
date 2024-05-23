@@ -1,0 +1,96 @@
+    *{
+    margin: 0;
+    box-sizing: border-box;
+    }
+   
+  .header{
+     height: 100px;
+     width: 100%;
+     background-color: green;
+  }
+   
+  .header img{
+     height: 90px;
+     float: left;
+     margin: 5px 10px 5px 25px; //здесь должно быть 4 значения, подбери сам!
+  }
+   
+  .header h1{
+     padding-top: 25px;
+     color: white;
+  }
+   
+  .navigate{
+     height: 50px;
+     width: 100%;
+     clear: none;
+     background-color:greenyellow ;
+     padding: 1px 0; // здесь должно быть 2 значения, первое подбери сам!
+  }
+   
+  ul{
+     list-style: none;
+     line-height: 50px;
+  }
+   
+  li{
+     float: left;
+     padding: 1px;
+     display: inline
+  }
+   
+  a{
+     text-decoration: none;
+     vertical-align: center;
+  }
+   
+  .content{
+     height: 450px;
+     width: 60%;
+     background-color:green;
+     float: left;
+  }
+   
+  .post{
+     padding: 10px 2px;
+     margin: 25px 5px; 
+     background-color:#9ACD32;
+     border-radius: 10px;
+  }
+   
+  .post p{
+     padding: 3px 0;
+  }
+   
+  .gallery{
+     height: 450px;
+     width: 40%;
+     background-color:white;
+     float: right;
+  }
+   
+  .gallery h2{
+     width: 100%;
+     text-align: center;
+     padding-top: 10px;
+  }
+   
+  .gallery img{
+     height: 250px;
+     width: auto;
+     margin: 3px 10px; /*здесь должно быть 2 значения, подбери сам!*/
+  }
+   
+  footer{
+     ширина:на весь экран;
+     цвет фона: выбери свой;
+     отменить обтекание (свойство clear);
+     внутренний отступ сверху: подбери
+     цвет текста:выбери свой;
+  }
+   
+  картинка внутри пункта списка{
+     высота: подбери;
+  }
+   
+  
