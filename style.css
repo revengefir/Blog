@@ -1,70 +1,69 @@
     *{
     margin: 0;
-    box-sizing: border-box;
     }
    
   .header{
-     height: 100px;
+     height: 90px;
      width: 100%;
      background-color: green;
   }
    
   .header img{
-     height: 90px;
+     height: 80px;
      float: left;
-     margin: 5px 10px 5px 25px; //здесь должно быть 4 значения, подбери сам!
+     margin: 5px 40px 5px 550px; 
   }
    
   .header h1{
-     padding-top: 25px;
+     padding-top: 20px;
      color: white;
   }
    
-  .navigate{
-     height: 50px;
+  .nav{
+     height: 35px;
      width: 100%;
-     clear: none;
+     clear: both;
      background-color:greenyellow ;
-     padding: 1px 0; // здесь должно быть 2 значения, первое подбери сам!
+     padding: 5px 0; 
   }
    
   ul{
      list-style: none;
-     line-height: 50px;
+     line-height: 20px;
+     margin-left: 570px;
   }
    
   li{
      float: left;
      padding: 1px;
-     display: inline
   }
    
-  a{
+  li a{
      text-decoration: none;
      vertical-align: center;
   }
    
   .content{
-     height: 450px;
-     width: 60%;
-     background-color:green;
+     height: 785px;
+     width: 67%;
+     background-color:aliceblue;
      float: left;
   }
    
   .post{
-     padding: 10px 2px;
-     margin: 25px 5px; 
+     padding: 20px 50px;
+     margin: 30px 40px; 
      background-color:#9ACD32;
-     border-radius: 10px;
+     border-radius: 30px;
   }
    
   .post p{
-     padding: 3px 0;
+     padding: 10px 0;
   }
    
   .gallery{
-     height: 450px;
-     width: 40%;
+     height: 785px;
+     width: 33%;
      background-color:white;
      float: right;
   }
@@ -72,25 +71,25 @@
   .gallery h2{
      width: 100%;
      text-align: center;
-     padding-top: 10px;
+     padding-top: 20px;
   }
    
   .gallery img{
-     height: 250px;
+     height: 28%;
      width: auto;
-     margin: 3px 10px; /*здесь должно быть 2 значения, подбери сам!*/
+     margin: 5px 25px; /*здесь должно быть 2 значения, подбери сам!*/
   }
    
-  footer{
-     ширина:на весь экран;
-     цвет фона: выбери свой;
-     отменить обтекание (свойство clear);
-     внутренний отступ сверху: подбери
-     цвет текста:выбери свой;
+  .footer{
+     height: 45px;
+     width: 100%;
+     background-color: yellowgreen;
+     clear: both;
+     padding-top: 10px;
+     color:white;
   }
-   
-  картинка внутри пункта списка{
-     высота: подбери;
+  li img{
+   height: 15px;
   }
    
   
